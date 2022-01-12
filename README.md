@@ -1,1 +1,3 @@
-# tdd_java_format
+# 実行方法
+
+./gradlew test
