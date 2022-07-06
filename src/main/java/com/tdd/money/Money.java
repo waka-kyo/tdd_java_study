@@ -12,4 +12,8 @@ abstract public class Money {
   public static Dollar Dollar(int amount) {
     return new Dollar(amount);
   }
+  public static Franc Franc(int amount) {
+    return new Franc(amount);
+  }
+
 }
