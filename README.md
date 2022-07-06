@@ -18,4 +18,5 @@
 - [x] equalsの一般化
 - [ ] timesの一般化
 - [x] FrancとDollarを比較する
+- [ ] 通貨の概念
 
