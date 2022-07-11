@@ -9,10 +9,10 @@ abstract public class Money {
         && getClass().equals(money.getClass());
   }
 
-  public static Dollar Dollar(int amount) {
+  static Money dollar(int amount) {
     return new Dollar(amount);
   }
-  public static Franc Franc(int amount) {
+  static Money franc(int amount) {
     return new Franc(amount);
   }
 
