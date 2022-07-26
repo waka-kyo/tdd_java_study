@@ -7,4 +7,11 @@ public class Pair {
     this.from = from;
     this.to = to;
   }
+  public boolean equals(Object object) {
+    Pair pair = (Pair) object;
+    return from.equals(pair.from) && to.equals(pair.to);
+  }
+  public int hashCode() {
+    return 0;
+  }
 }
