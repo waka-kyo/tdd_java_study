@@ -3,7 +3,7 @@ package com.tdd.money;
 public class Sum implements Expression{
   Expression augend;
   Expression addend;
-  Sum(Money augend, Money added){
+  Sum(Expression augend, Expression added){
     this.augend = augend;
     this.addend = added;
   }
