@@ -27,7 +27,7 @@ public class Money implements Expression{
   static Money franc(int amount) {
     return new Money(amount, "CHF");
   }
-  public Expression plus(Money added) {
+  public Expression plus(Expression added) {
     return new Sum(this, added);
   }
   public Money reduce(Bank bank, String to) {
